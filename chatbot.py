@@ -1,12 +1,11 @@
 import pandas as pd
 
-# Load CSV
 df = pd.read_csv("ex_data.csv")
 
-# Clean column names
+
 df.columns = df.columns.str.strip()
 
-# Ensure correct data types (using YOUR typo)
+
 cols = ['REVENUE', 'NET INCOME', 'TOTAL ASSETS',
         'TOTAL LIABILITES', 'OPERATING_CASH_FLOW']
 
@@ -30,7 +29,7 @@ df[['Revenue Growth (%)', 'Net Income Growth (%)']] = (
     df[['Revenue Growth (%)', 'Net Income Growth (%)']].fillna(0)
 )
 
-# ---------------- CHATBOT ---------------- #
+
 
 
 def chatbot(query):
