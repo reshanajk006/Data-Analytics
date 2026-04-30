@@ -57,8 +57,7 @@ pip install pandas numpy scikit-learn xgboost lightgbm optuna shap streamlit
 # Run app
 streamlit run app.py
 
-## 📖 What I Learned
-- How to build production-ready ML pipelines
+- Production-ready ML pipelines
 - Bayesian hyperparameter optimization with Optuna
 - When ensembling helps vs hurts performance
 - Model explainability with SHAP values
