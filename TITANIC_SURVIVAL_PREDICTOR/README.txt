@@ -28,13 +28,13 @@ tuning, ensembling, and explainability.
 8. Streamlit Web App
 
 ## 🏆 Model Leaderboard
-| Model | Accuracy |
-|---|---|
-| XGBoost (Optuna) | 84.13% |
-| LightGBM (Optuna) | 83.99% |
-| Random Forest (Optuna) | 83.42% |
-| Stacking Ensemble | 83.00% |
-| Voting Ensemble | 82.86% |
+| Model              | Accuracy |
+------------------------------- 
+| XGBoost (Optuna)   | 84.13% |
+| LightGBM (Optuna)  | 83.99% |
+| RandomForest(Optuna) | 83.42% |
+| Stacking Ensemble  | 83.00% |
+| Voting Ensemble    | 82.86% |
 
 ## 🔍 Key Findings (SHAP)
 - **Sex** → Most impactful feature (females survived more)
@@ -48,8 +48,7 @@ automl_project/
 ├── app.py            ← Streamlit web app
 ├── model.pkl         ← Saved XGBoost model
 ├── preprocessor.pkl  ← Saved preprocessing pipeline
-└── data/
-    └── train.csv     ← Titanic dataset
+
 
 ## 🚀 Run Locally
 # Install dependencies
